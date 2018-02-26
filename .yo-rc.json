@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "conflux-webparts",
+    "libraryId": "07d93f8f-6ada-496e-a614-4c3bdf0ec821",
+    "environment": "spo"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Conflux Webparts",
+    "id": "07d93f8f-6ada-496e-a614-4c3bdf0ec821",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/conflux-webparts.sppkg"
+  }
+}

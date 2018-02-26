@@ -1,0 +1,25 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "1410295a-09a8-4673-a942-c733d657b10c",
+  "alias": "CswpWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "CSWP" },
+    "description": { "default": "Modern Content by Search WebPart" },
+    "officeFabricIconFontName": "NewsSearch",
+    "properties": {
+      "description": "CSWP Webpart",
+      "query": "document",
+      "itemTemplate": "<div>_# Title #_</div>",
+      "controlTemplate":  "<div><h3 class=\"test ms-fontSize-xl ms-fontWeight-light\">Test</h3><div>{items}</div></div>",
+      "cssStyles": ".test {color: \"[theme:themePrimary, default: blue]\"}",
+      "maxNumberResults": 3,
+      "noResultsTemplate": "<div class=\"test\">Sorry, no results to display...</div>"
+    }
+  }]
+}
