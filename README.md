@@ -1,4 +1,4 @@
-## CSWP Webpart
+## CSWP SharePoint Framework Webpart
 
 The package contains a SharePoint Framework Content by Search Modern Webpart. The 'install' folder contains the SPPKG package that is ready to be deployed in your app catalog. The solution uses the O365 CDN. For more information on how to enable the CDN on your Tenant go to https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/hosting-webpart-from-office-365-cdn
 
