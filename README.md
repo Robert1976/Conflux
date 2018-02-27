@@ -16,4 +16,4 @@ The CSWP webpart has 5 properties:
 
 - CSS Styles: Use this property to add CSS styles to the HTML of your templates. Theme colors are supported. So, for example you could use placeholders like: background-color: "[theme: themePrimary, default: #0078d7]". For more information on theme colors: https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-theme-colors-in-your-customizations
 
-- No Search Results Template: the HTML template that should be shown whewn there are no results. You are not allowed to use JavaScript in your template.
+- No Search Results Template: the HTML template that should be shown when there are no results. You are not allowed to use JavaScript in your template.
